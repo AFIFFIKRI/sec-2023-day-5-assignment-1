@@ -1,0 +1,1158 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap");
+
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: auto;
+  width: 100vw;
+  min-height: 100vh;
+}
+
+section {
+  max-width: 1100px;
+  margin: 0 auto;
+  height: 600px;
+  /* display: flex;
+  flex-direction: row; */
+}
+
+button,
+a {
+  all: unset;
+  cursor: pointer;
+  transition: all 200ms;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+button:hover {
+  background-color: black;
+  color: white;
+}
+
+.right {
+  width: 50%;
+}
+
+.left {
+  width: 50%;
+}
+
+/* navbar section starts */
+
+#navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  height: 80px;
+}
+
+.logo {
+  display: flex;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+
+  color: #272d38;
+}
+
+.navright {
+  display: flex;
+  list-style: none;
+  gap: 50px;
+
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+
+  color: #272d38;
+}
+
+.bi-list {
+  display: none;
+}
+
+/* navbar section ends */
+
+/* hero section starts */
+
+#hero {
+  display: flex;
+  align-items: center;
+}
+
+#hero .left {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+}
+
+.hero-content h1 {
+  display: flex;
+  max-width: 540px;
+
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 64px;
+  line-height: 100%;
+
+  text-transform: capitalize;
+
+  color: #272d38;
+}
+
+.hero-content p {
+  display: flex;
+  max-width: 540px;
+  margin-top: 30px;
+
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 28px;
+
+  text-transform: capitalize;
+
+  color: #272d38;
+}
+
+.hero-content .contactus {
+  display: flex;
+  padding: 1em;
+  padding-left: 35px;
+  padding-right: 35px;
+  margin-top: 40px;
+  max-width: 540px;
+
+  background: #8eadd5;
+  border-radius: 8px;
+
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+
+  align-items: center;
+  text-align: center;
+}
+
+#hero .right .picture-1 {
+  display: flex;
+  align-items: center;
+  justify-content: end;
+}
+
+/* hero section ends */
+
+/* companies section starts */
+
+#companies {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  height: 100px;
+}
+
+.text-trusted {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px;
+
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 100%;
+
+  text-transform: capitalize;
+
+  color: #667085;
+}
+
+.complogo {
+  display: flex;
+  list-style: none;
+  justify-content: center;
+  align-items: center;
+  gap: 115px;
+}
+
+.slackbox-1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
+}
+
+.slackinnerbox {
+  margin-bottom: -2px;
+}
+
+.box-1 {
+  margin-bottom: -3px;
+}
+
+/* companies section ends */
+
+/* branding section starts */
+
+#branding {
+  display: flex;
+  align-items: center;
+}
+
+#branding .right {
+  display: flex;
+  justify-content: end;
+}
+
+.branding-content h1 {
+  display: flex;
+  justify-content: end;
+  max-width: 435px;
+
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 100%;
+
+  text-transform: capitalize;
+
+  color: #272d38;
+}
+
+.branding-content p {
+  display: flex;
+  max-width: 435px;
+  margin-top: 30px;
+
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 28px;
+
+  text-transform: capitalize;
+
+  color: #272d38;
+}
+
+.branding-content .go-to {
+  display: flex;
+  margin-top: 30px;
+  padding: 0;
+}
+
+/* branding section ends */
+
+/* custome section starts */
+
+#custome {
+  display: flex;
+  align-items: center;
+
+  height: 500px;
+}
+
+#custome .left {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+}
+
+.custome-content h1 {
+  display: flex;
+  justify-content: end;
+  max-width: 435px;
+
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 100%;
+
+  text-transform: capitalize;
+
+  color: #000000;
+}
+
+.custome-content p {
+  display: flex;
+  max-width: 435px;
+  margin-top: 30px;
+
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 28px;
+
+  text-transform: capitalize;
+
+  color: #000000;
+}
+
+.custome-content .go-to {
+  display: flex;
+  margin-top: 30px;
+  padding: 0;
+}
+
+#custome .right {
+  display: flex;
+  justify-content: end;
+  align-items: center;
+}
+
+/* custome section ends */
+
+/* testimonial section starts */
+
+.testimonial-content {
+  display: flex;
+  justify-content: center;
+}
+
+.title-text {
+  text-align: center;
+  width: 500px;
+}
+
+.title-text h1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-width: 500px;
+  margin-top: 50px;
+
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 28px;
+
+  text-transform: capitalize;
+
+  color: #272d38;
+}
+
+.title-text p {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-width: 500px;
+
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 100%;
+
+  text-align: center;
+  text-transform: capitalize;
+
+  color: #272d38;
+}
+
+.testimonial-content-2 {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, auto));
+  align-items: center;
+  gap: 2.5rem;
+  margin-top: 4rem;
+}
+
+.box {
+  background: #f6f6f6;
+  padding: 15px 30px;
+  border-radius: 20px;
+  text-align: center;
+}
+
+.box h1 {
+  margin-bottom: 20px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 28px;
+
+  text-transform: capitalize;
+
+  color: #272d38;
+}
+
+.box p {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 130%;
+
+  text-transform: capitalize;
+
+  color: #272d38;
+}
+
+/* testimonial section ends */
+
+/* contact section starts */
+
+#contact {
+  display: flex;
+  align-items: center;
+}
+
+#contact .left {
+  display: flex;
+  justify-content: end;
+  align-items: center;
+}
+
+#contact .right {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.contact-text h1 {
+  max-width: 360px;
+
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 100%;
+
+  color: #272d38;
+}
+
+.contact-text p {
+  max-width: 360px;
+  margin-top: 30px;
+
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 28px;
+
+  color: #272d38;
+}
+
+.contact-text .contactus {
+  display: flex;
+  padding: 1em;
+  padding-left: 35px;
+  padding-right: 35px;
+  margin-top: 35px;
+  max-width: 540px;
+
+  background: #8eadd5;
+  border-radius: 8px;
+
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+
+  align-items: center;
+  text-align: center;
+}
+
+/* contact section ends */
+
+/* footer section starts */
+
+#footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: start;
+  padding: 130px 0;
+  height: 450px;
+}
+
+.main {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 28px;
+
+  text-transform: capitalize;
+
+  color: #272d38;
+}
+
+.sub-1 {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 100%;
+
+  text-transform: capitalize;
+
+  color: #272d38;
+}
+
+.col-1 ul li {
+  display: flex;
+  align-items: start;
+  max-width: 200px;
+  margin-bottom: 20px;
+}
+.col-2 ul li {
+  display: flex;
+  align-items: start;
+  margin-bottom: 20px;
+}
+.col-3 ul li {
+  display: flex;
+  align-items: start;
+  margin-bottom: 20px;
+}
+.col-4 ul li {
+  display: flex;
+  align-items: start;
+  margin-bottom: 20px;
+}
+
+/* footer section ends */
+
+/* when mobile @ screen < 600px flex direction = column */
+@media (max-width: 600px) {
+  section {
+    flex-direction: column;
+    height: auto;
+    max-width: 380px;
+  }
+  .right {
+    width: 100%;
+  }
+
+  .left {
+    width: 100%;
+  }
+
+  /* mobile navbar section */
+
+  #navbar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    height: 80px;
+  }
+
+  #navbar .logo {
+    display: flex;
+    justify-content: space-between;
+    gap: 230px;
+  }
+
+  .logo h1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 17px;
+
+    color: #272d38;
+  }
+  .logo .bi-list {
+    display: flex;
+    font-size: 30px;
+  }
+  .navright {
+    display: none;
+  }
+
+  /* mobile hero section */
+
+  #hero {
+    display: flex;
+    align-items: center;
+  }
+
+  #hero .left {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  #hero .left .hero-content h1 {
+    display: flex;
+    max-width: 380px;
+
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 100%;
+
+    display: flex;
+    align-items: center;
+    text-align: center;
+    text-transform: capitalize;
+
+    color: #272d38;
+  }
+
+  #hero .left .hero-content p {
+    display: flex;
+    max-width: 380px;
+    margin-top: 30px;
+
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+
+    text-align: center;
+    text-transform: capitalize;
+
+    color: #272d38;
+  }
+
+  .hero-content .btn-1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .hero-content .btn-1 .contactus {
+    display: flex;
+
+    padding: 8px 18px;
+    margin-top: 40px;
+
+    max-width: 380px;
+
+    background: #8eadd5;
+    border-radius: 8px;
+
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+
+    align-items: center;
+    text-align: center;
+  }
+
+  #hero .right .picture-1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+  }
+
+  .picture-1 img {
+    max-width: 100%;
+    max-height: 100%;
+
+    width: 380px;
+    height: 380px;
+  }
+
+  /* mobile companies section */
+
+  #companies {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 380px;
+    height: 400px;
+  }
+
+  .text-trusted {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    margin-bottom: 20px;
+
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 100%;
+
+    text-transform: capitalize;
+
+    color: #667085;
+  }
+
+  .complogo {
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    align-items: center;
+    gap: 38px;
+    margin-top: 50px;
+  }
+
+  .spotifylogo img {
+    max-width: 100%;
+    max-height: 100%;
+
+    width: 70px;
+    height: 20px;
+    display: flex;
+    align-items: center;
+  }
+
+  .slackbox-1 img {
+    max-width: 100%;
+    max-height: 100%;
+
+    width: 40px;
+    height: 13px;
+  }
+  .slackinnerbox img {
+    max-width: 100%;
+    max-height: 100%;
+
+    width: 8px;
+    height: 8px;
+  }
+  .box-1 {
+    margin-bottom: -10px;
+    margin-top: -5px;
+  }
+
+  .dropboxlogo {
+    display: flex;
+    gap: 5px;
+  }
+
+  .dropboxlogo .db-a {
+    max-width: 100%;
+    max-height: 100%;
+
+    width: 15px;
+    height: 15px;
+  }
+
+  .dropboxlogo .db-b {
+    max-width: 100%;
+    max-height: 100%;
+
+    width: 60px;
+    height: 15px;
+  }
+
+  .zoomlogo img {
+    max-width: 100%;
+    max-height: 100%;
+
+    width: 50px;
+    height: 10px;
+  }
+
+  /* mobile branding section */
+
+  #branding {
+    display: flex;
+    align-items: center;
+    max-width: 380px;
+    height: 700px;
+  }
+
+  #branding .left {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+    order: 2;
+  }
+
+  #branding .left img {
+    max-width: 100%;
+    max-height: 100%;
+
+    width: 380px;
+    height: 380px;
+  }
+
+  #branding .right {
+    display: flex;
+    justify-content: center;
+    order: 1;
+  }
+
+  .branding-content h1 {
+    display: flex;
+
+    text-align: center;
+    max-width: 380px;
+
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 100%;
+
+    text-align: center;
+    text-transform: capitalize;
+
+    color: #272d38;
+  }
+
+  .branding-content p {
+    display: flex;
+
+    text-align: center;
+    max-width: 435px;
+    margin-top: 30px;
+
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 28px;
+
+    text-align: center;
+    text-transform: capitalize;
+
+    color: #272d38;
+  }
+
+  .branding-content .arrow {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+  }
+
+  .branding-content .arrow .go-to {
+    display: flex;
+    rotate: 90deg;
+
+    padding: 0;
+  }
+
+  /* mobile custome section */
+
+  #custome {
+    display: flex;
+    align-items: center;
+    max-width: 380px;
+    height: 800px;
+  }
+
+  #custome .left {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    margin-top: 50px;
+  }
+
+  .custome-content h1 {
+    display: flex;
+    justify-content: end;
+    max-width: 380px;
+
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 100%;
+
+    text-align: center;
+    text-transform: capitalize;
+
+    color: #272d38;
+  }
+
+  .custome-content p {
+    display: flex;
+    max-width: 435px;
+    margin-top: 30px;
+
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 28px;
+
+    text-align: center;
+    text-transform: capitalize;
+
+    color: #272d38;
+  }
+
+  .custome-content .arrow {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+  }
+
+  .custome-content .arrow .go-to {
+    display: flex;
+    rotate: 90deg;
+
+    padding: 0;
+  }
+
+  #custome .right {
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    margin-top: 50px;
+  }
+
+  #custome .right img {
+    max-width: 100%;
+    max-height: 100%;
+
+    width: 380px;
+    height: 380px;
+  }
+
+  /* mobile testimonial section */
+
+  .testimonial-content {
+    display: flex;
+    justify-content: center;
+  }
+
+  .title-text {
+    text-align: center;
+    width: 380px;
+  }
+
+  .title-text h1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 380px;
+    margin-top: 50px;
+
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 28px;
+
+    text-transform: capitalize;
+
+    color: #272d38;
+  }
+
+  .title-text p {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 380px;
+    margin-top: 10px;
+
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 100%;
+
+    text-align: center;
+    text-transform: capitalize;
+
+    color: #272d38;
+  }
+
+  .testimonial-content-2 {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, auto));
+    align-items: center;
+    gap: 2.5rem;
+    margin-top: 4rem;
+  }
+
+  .box {
+    background: #f6f6f6;
+    padding: 15px 40px;
+    border-radius: 20px;
+    text-align: center;
+  }
+
+  .box h1 {
+    margin-bottom: 20px;
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+
+    text-transform: capitalize;
+
+    color: #272d38;
+  }
+
+  .box p {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 130%;
+
+    display: flex;
+    align-items: center;
+    text-align: center;
+    text-transform: capitalize;
+
+    color: #272d38;
+  }
+
+  /* mobile contact section */
+
+  #contact {
+    display: flex;
+    align-items: center;
+  }
+
+  #contact .left {
+    display: none;
+  }
+
+  #contact .right {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 200px;
+    margin-bottom: 100px;
+  }
+
+  .contact-text h1 {
+    max-width: 310px;
+
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 100%;
+
+    text-align: center;
+
+    color: #272d38;
+  }
+
+  .contact-text p {
+    max-width: 310px;
+    margin-top: 30px;
+
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+
+    text-align: center;
+
+    color: #272d38;
+  }
+
+  .contact-text .btn-2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .contact-text .btn-2 .contactus {
+    display: flex;
+    padding: 8px 18px;
+    margin-top: 40px;
+
+    max-width: 380px;
+
+    background: #8eadd5;
+    border-radius: 8px;
+
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+
+    align-items: center;
+    text-align: center;
+  }
+
+  /* mobile footer section */
+
+  #footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 80px 0;
+
+    margin-top: 100px;
+    height: 1000px;
+  }
+
+  .main {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 28px;
+
+    text-transform: capitalize;
+
+    color: #272d38;
+  }
+
+  .sub-1 {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 100%;
+
+    text-transform: capitalize;
+
+    color: #272d38;
+  }
+
+  .col-1 ul li {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    max-width: 200px;
+    margin-bottom: 20px;
+  }
+  .col-2 ul li {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  .col-3 ul li {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  .col-4 ul li {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+}
